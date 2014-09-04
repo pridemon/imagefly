@@ -1,0 +1,24 @@
+{
+    "name": "pridemon/imagefly",
+    "type":        "kohana-module",
+    "description": " Modified images are cached after the initial request and served up thereafter to help reduce server strain.",
+    "license":     "BSD-3-Clause",
+    "require": {
+        "composer/installers": "~1.0",
+        "kohana/core":         ">=3.3",
+        "php":                 ">=5.3.3"
+    },
+    "repositories"			:[
+
+        {
+            "type":"git",
+            "url":"https://github.com/pridemon/imagefly.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Ilya Gudkov",
+            "email": "pridemon@yandex.ru"
+        }
+    ]
+}
